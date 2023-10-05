@@ -1,0 +1,36 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+
+    background-color: white;
+}
+
+.logoImageStyle {
+    width: 60%;  
+}
+
+.h1Style {
+    text-align: center;
+    margin: 0;
+}
+
+.listWrapper {
+    
+}
+
+.diamondImageStyle {
+    width: 20%;  
+}
+
+.learnButton {
+    background-color: blue;
+    border-radius: 20%;
+    border-width: 0;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
