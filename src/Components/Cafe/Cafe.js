@@ -14,10 +14,10 @@ const Cafe = () => {
             <h1 className={CafeStyle.h1Style}>Services From </h1>
             <h1 className={CafeStyle.h1Style}>The Heart of God </h1>
             <div className={CafeStyle.listWrapper}>
-                <p style={{ margin: "0" }}>Page A</p>
-                <p style={{ margin: "0" }}>Page B</p>
-                <p style={{ margin: "0" }}>Page C</p>
-                <p style={{ margin: "0" }}>Page D</p>
+                <p>Page A</p>
+                <p>Page B</p>
+                <p>Page C</p>
+                <p>Page D</p>
             </div>
             <Image src={diamondImg} className={CafeStyle.diamondImageStyle} />
             <Button className={CafeStyle.learnButton}>LEARN MORE</Button>

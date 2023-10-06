@@ -7,10 +7,12 @@
     margin-top: 1rem;
 
     background-color: white;
+
+    font-family: "Rubik";
 }
 
 .logoImageStyle {
-    width: 60%;  
+    width: clamp(100px, 60%, 200px);
 }
 
 .h1Style {
@@ -18,12 +20,20 @@
     margin: 0;
 }
 
-.listWrapper {
-    
+.listWrapper > * {
+    margin: 4px 0 0 0;
+    padding: 0 1em;
+}
+
+.listWrapper > *:hover {
+    background-color: cyan;
+    color: white;
+
+    transition: 500ms ease-in-out;
 }
 
 .diamondImageStyle {
-    width: 20%;  
+    width: clamp(40px, 20%, 100px);  
 }
 
 .learnButton {
